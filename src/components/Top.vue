@@ -1,11 +1,11 @@
 <template>
   <div class="flex flex-wrap items-center p-16">
-    <div class="w-full md:w-1/2 text-right p-8">
+    <div class="w-full md:w-1/2 text-center md:text-right p-8">
       <p>
         <span
-          class="font-serif font-black text-7xl lg:text-7xl md:text-4xl text-black-400 text-opacity-75"
+          class="font-serif font-black text-3xl lg:text-7xl md:text-4xl text-black-400 text-opacity-75"
         >Oda Lemon</span>
-        <span class="font-serif font-black text-7xl lg:text-7xl md:text-4xl text-green-400">e</span>
+        <span class="font-serif font-black text-3xl lg:text-7xl md:text-4xl text-green-400">e</span>
       </p>
       <p class="font-serif font-black lg:text-2xl md:text-md text-opacity-75">Is Still Alive</p>
     </div>
