@@ -23,6 +23,6 @@ export default defineComponent({
 }
 
 #section-one > div {
-    padding: 25vh;
+    padding: auto 25vh;
 }
 </style>
