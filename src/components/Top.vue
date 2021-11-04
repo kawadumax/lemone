@@ -10,7 +10,7 @@
       <p class="font-serif font-black lg:text-2xl md:text-md text-opacity-75">Is Still Alive</p>
     </div>
 
-    <img src="/@assets/face.jpg" class="rounded-full w-full md:w-1/2 p-8" />
+    <img src="@/assets/face.jpg" class="rounded-full w-full md:w-1/2 p-8" />
   </div>
 </template>
 
@@ -27,7 +27,7 @@ export default defineComponent({
 <style scoped>
 #top {
   /* background-color: yellow; */
-  background-image: url("src/assets/lemone_bg.png");
+  background-image: url("@/assets/lemone_bg.png");
   background-size: 100% 100%;
 }
 </style>
