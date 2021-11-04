@@ -1,9 +1,5 @@
 <template>
-  <div
-    class="flex flex-wrap items-center p-16"
-    id="top"
-    style="background-image: url('./src/assets/lemone_bg.png');"
-  >
+  <div class="flex flex-wrap items-center p-16" id="top">
     <div class="w-full md:w-1/2 text-center md:text-right p-8">
       <p>
         <span
@@ -31,6 +27,7 @@ export default defineComponent({
 <style scoped>
 #top {
   /* background-color: yellow; */
+  background-image: url("src/assets/lemone_bg.png");
   background-size: 100% 100%;
 }
 </style>
