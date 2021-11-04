@@ -2,7 +2,7 @@
   <div
     class="flex flex-wrap items-center p-16"
     id="top"
-    style="background-image: url('/@assets/lemone_bg.png');"
+    style="background-image: url('./src/assets/lemone_bg.png');"
   >
     <div class="w-full md:w-1/2 text-center md:text-right p-8">
       <p>
