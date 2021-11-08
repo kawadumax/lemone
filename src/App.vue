@@ -1,19 +1,22 @@
 <template>
   <div class>
     <Top />
-    <SectionOne />
+    <SectionOneVue />
+    <SectionTwoVue />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import Top from './components/Top.vue'
-import SectionOne from './components/SectionOne.vue'
+import SectionOneVue from './components/SectionOne.vue'
+import SectionTwoVue from './components/SectionTwo.vue'
 export default defineComponent({
   name: 'App',
   components: {
     Top,
-    SectionOne
+    SectionOneVue,
+    SectionTwoVue
   }
 })
 </script>
